@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity { // Declaração da classe 
     @Override
     protected void onCreate(Bundle savedInstanceState) { // Método onCreate que é chamado quando a atividade é criada
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); // Constroi elementos de interface definidos o arquivo xml
 
         Button btnEnviar = findViewById(R.id.btnEnviar); // Referencia o botão
         btnEnviar.setOnClickListener(new View.OnClickListener() { // Configura um listener de clique para o botão
