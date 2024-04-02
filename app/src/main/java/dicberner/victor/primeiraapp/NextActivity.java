@@ -15,6 +15,7 @@ public class NextActivity extends AppCompatActivity { // Declaração da classe 
         Intent i = getIntent(); // Obtém o Intent do começo
         String textoDigitado = i.getStringExtra("texto"); //Obtém o texto extra passado pelo Intent
         TextView tvTexto = findViewById(R.id.tvTexto);
-        tvTexto.setText(textoDigitado);
+        tvTexto.setText(textoDigitado); //seta o texto no textView para ser exibido na tela
+
     }
 }
